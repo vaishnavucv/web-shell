@@ -1,7 +1,15 @@
-# Привет хакер
-Мы видели, что вы делали. Заработали кучу денег, верно?<br>
-Ваш репозиторий Github надежно зашифрован<br>
-Отправьте 0.01 BTC на следующий адрес, чтобы расшифровать ваш репозиторий<br>
+# web-shell
+A php page that we can pass linux shell code and get output in the webpage itself 
+
+To use this code, git clone to directory of your web server. 
 ```
-bc1qhte7j77f8uxep66w5k57kzqaqcu8ldvwe7g5gm
+git clone https://github.com/vaishnavucv/web-shell
+cd web-shell
+sudo php -S localhost:8080
 ```
+Then, open your web browser and navigate to 
+```
+http://localhost/index.php
+```
+To view the page. Enter any command you want in the text input field, and
+a loading spinner will be displayed while the command is being executed, and the output will be displayed once it is ready.
